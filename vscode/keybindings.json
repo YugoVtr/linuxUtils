@@ -1,0 +1,38 @@
+[
+  {
+      "key": "alt+shift+up",
+      "command": "editor.action.copyLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "alt+shift+down",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "ctrl+t ctrl+u",
+      "command": "editor.action.transformToUppercase"
+  },
+  {
+      "key": "ctrl+t ctrl+l",
+      "command": "editor.action.transformToLowercase"
+  },
+  {
+      "key": "ctrl+'",
+      "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+      "key": "ctrl+shift+[BracketLeft]",
+      "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+      "key": "ctrl+alt+n",
+      "command": "bookmarks.jumpToNext",
+      "when": "editorTextFocus"
+  },
+  {
+      "key": "ctrl+alt+l",
+      "command": "-bookmarks.jumpToNext",
+      "when": "editorTextFocus"
+  }
+]

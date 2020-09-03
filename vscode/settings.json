@@ -1,0 +1,18 @@
+{
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true, 
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": false, 
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.5,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.suggestSelection": "first",
+  "window.zoomLevel": 0
+}
